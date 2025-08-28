@@ -1,0 +1,138 @@
+# Premake5 generated files
+*.make
+Makefile
+*.vcxproj*
+*.sln
+*.vcxproj.filters
+*.xcodeproj/
+project/
+.vs/
+.vscode/
+compile_commands.json
+
+# Build directories
+build/
+bin/
+obj/
+*.obj
+*.o
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.exp
+*.pdb
+*.ilk
+*.idb
+*.pch
+*.ipch
+*.sdf
+*.suo
+*.user
+*.tlog
+*.lastbuildstate
+
+# Executables and binaries
+*.exe
+*.out
+*.app
+
+# Dependency directories
+deps/
+vendor/
+third_party/
+external/
+
+# IDE specific files
+.idea/
+*.swp
+*.swo
+*~
+
+# Cache and temporary files
+.cache/
+*.tmp
+*.temp
+
+# Documentation
+docs/_build/
+docs/html/
+docs/latex/
+
+# Package managers
+conanfile.txt
+conanfile.py
+conanbuildinfo.*
+conan_imports_*
+conanbuildinfo.txt
+conaninfo.txt
+conan.lock
+
+# vcpkg
+vcpkg_installed/
+vcpkg_scripts/
+
+# CMake (if used alongside premake)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.cmake
+
+# Test coverage
+*.gcda
+*.gcno
+*.gcov
+
+# Log files
+*.log
+logs/
+
+# Precompiled headers
+*.gch
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+
+# Linux
+*~
+
+# Doxygen
+doxygen/
+
+# Backup files
+*.bak
+*.backup
+
+# Generated documentation
+doc/
+apidoc/
+
+# Profiling data
+*.profdata
+*.profraw
+
+# Package files
+*.tar.gz
+*.zip
+*.7z
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Misc
+*.orig
+*.rej
